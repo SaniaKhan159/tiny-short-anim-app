@@ -1,38 +1,159 @@
-.App {
+img{
+  max-width: 100%;
+}
+.navbar{
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar-links ul{
+  float: right;
+  padding-top: 1em;
+}
+.navbar-links ul li{
+  list-style: none;
+}
+.navbar-links ul li + li{
+  margin-left: 10px;
+}
+.navbar-links ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  font-family: arial;
+}
+.navbar .navbar-logo{
+  padding-top: 1em;
+  float: left;
+}
+.navbar .logo{
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.row-2{
+  width: 100%;
+  float: left;
+}
+.banner{
+  position: relative;
+  background-color: #3f51b5; 
+  background-image: linear-gradient(to right, #3f51b5 , #020206);
+  /* background-image: url('https://specials-images.forbesimg.com/imageserve/5ef030968548c80006be69fb/960x0.jpg?fit=scale');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px; */
+}
+.padd-tb-40{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.banner-content{
+  width: 50%;
+  float: left;
+  margin-top: 135px;
+}
+.banner-img{
+  width: 50%;
+  float: left;
+  margin-top: 60px;
+  border: 1px solid #2c397d;
+  border-radius: 13px;
+  background-image: url('https://industrywired.com/wp-content/uploads/2020/05/Big-Data.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 382px;
+}
+/* .banner-img img{
+  float: right;
+} */
+.banner-content h2{
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+.banner-content p{
+  font-size: 16px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+.banner-content a{
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 0px;
+  display: block;
+  width: 200px;
   text-align: center;
+  color: #fff;
+  padding: 10px 0 10px 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about h2{
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  color: #020206;
+  margin-bottom: 25px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about p{
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #020206;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.feature-box{
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 0px 10px;
+  margin: 7px 0;
+  border-radius: 4px;
+  border: 1px solid #d7d7d7;
+  height: 300px;
+  min-height: 218px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  background: #373f6d;
 }
-
-.App-link {
-  color: #61dafb;
+.feature-box h3{
+  margin-bottom: 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.f-bg2{
+  background: #0e558e;
+}
+.f-bg3{
+  background: #48a0e7;
+}
+.history-banner{
+  background-image: url('https://specials-images.forbesimg.com/imageserve/5ef030968548c80006be69fb/960x0.jpg?fit=scal');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+}
+.quote-main q{
+  font-size: 25px;
+  text-align: center;
+  color: #3f51b5;
+  font-family: 'Poppins', sans-serif;
+}
+.quote-main p{
+  font-size: 20px;
+  text-align: right;
+  color: #3f51b5;
+  font-family: 'Poppins', sans-serif;
+}
+.footer{
+  background: #3f51b5;
+}
+.footer p{
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
